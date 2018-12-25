@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1494358185468396}
+  m_IsPrefabAsset: 1
+--- !u!1 &1494358185468396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4372715569114802}
+  - component: {fileID: 114182409948395710}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4372715569114802
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494358185468396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114182409948395710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494358185468396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16fc53f154d1a6478ca8dd7d2b59d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds: []
+  soundFX:
+  - name: MessengerSound
+    clip: {fileID: 8300000, guid: 7c2fd80639c4c664a801c5bc36b6e654, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: FacebookChat
+    clip: {fileID: 8300000, guid: 65246ae1668476d4fae2cd88266909cc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: iMessageSend
+    clip: {fileID: 8300000, guid: 5ea2f76108f645043833a773de961a43, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: iMessageReceive
+    clip: {fileID: 8300000, guid: 1561e6805a8d9e447bb80645059ce0d9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: MessengerTyping
+    clip: {fileID: 8300000, guid: 1c987c650c3cede4ca728550b15b2a29, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: HeartBeat
+    clip: {fileID: 8300000, guid: ab09b13d3aa73a844ad281e1f89672bf, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    awake: 1
+    source: {fileID: 0}
